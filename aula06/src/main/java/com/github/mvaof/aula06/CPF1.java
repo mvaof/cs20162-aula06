@@ -10,9 +10,6 @@ package com.github.mvaof.aula06;
  */
 
 public class CPF1 {
-	/**
-	 * @author Marcus Implementa a verificação dos digitos verificadores do CPF
-	 */
 
 	/**
 	 * Serviço que verifica a validade do cpf.
