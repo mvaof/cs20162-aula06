@@ -4,6 +4,8 @@ import org.junit.Assert;
 import org.junit.Test;
 
 
+
+
 public class CPF2Test {
 
     @Test(expected = IllegalArgumentException.class)
@@ -23,5 +25,8 @@ public class CPF2Test {
         int[] r = {0, 0, 5, 0, 8, 8, 3, 1, 2, 5, 3, 8};
         Assert.assertFalse(CPF2.Cpf(r));
     }
-
+    @Test
+    public void testInstanciar() {
+        new CPF2();
+    }
 }
